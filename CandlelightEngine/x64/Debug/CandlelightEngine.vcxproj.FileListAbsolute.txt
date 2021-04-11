@@ -1,2 +1,0 @@
-E:\Documents\Game Projects\Github\Candlelight\CandlelightEngine\Build\CandlelightEngine.pdb
-E:\Documents\Game Projects\Github\Candlelight\CandlelightEngine\x64\Debug\CandlelightEngine.pdb
