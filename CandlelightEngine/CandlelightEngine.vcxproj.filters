@@ -21,27 +21,30 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Header Files\Dependencies\IDependency.h">
+    <ClInclude Include="Dependencies\Header Files\IDependency.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Header Files\Dependencies\IDependant.h">
+    <ClInclude Include="Dependencies\Header Files\IDependant.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Header Files\Dependencies\DependenciesContainer.h">
+    <ClInclude Include="Dependencies\Header Files\DependenciesContainer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Header Files\Dependencies\Dependencies.h">
+    <ClInclude Include="Dependencies\Header Files\Dependencies.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Header Files\typedefs.h">
+    <ClInclude Include="Core\Header Files\typedefs.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Header Files\temp.h">
+    <ClInclude Include="Maths\Header Files\Vector3f.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Maths\Header Files\Maths.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Source Files\temp.cpp">
+    <ClCompile Include="Maths\Source Files\Vector3f.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

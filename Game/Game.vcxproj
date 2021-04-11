@@ -76,7 +76,7 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>"Header Files";"../CandlelightEngine/Header Files";"../CandlelightEngine/Header Files/Dependencies";</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>"../CandlelightEngine/Dependencies/Header Files";"../CandlelightEngine/Core/Header Files";"../CandlelightEngine/Maths/Header Files";</AdditionalIncludeDirectories>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <Link>
@@ -90,7 +90,7 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>"Header Files";"../CandlelightEngine/Header Files";"../CandlelightEngine/Header Files/Dependencies";</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>"../CandlelightEngine/Dependencies/Header Files";"../CandlelightEngine/Core/Header Files";"../CandlelightEngine/Maths/Header Files";</AdditionalIncludeDirectories>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <Link>
@@ -107,7 +107,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>"Header Files";"../CandlelightEngine/Header Files";"../CandlelightEngine/Header Files/Dependencies";</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>"../CandlelightEngine/Dependencies/Header Files";"../CandlelightEngine/Core/Header Files";"../CandlelightEngine/Maths/Header Files";</AdditionalIncludeDirectories>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <Link>
@@ -125,7 +125,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>"Header Files";"../CandlelightEngine/Header Files";"../CandlelightEngine/Header Files/Dependencies";</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>"../CandlelightEngine/Dependencies/Header Files";"../CandlelightEngine/Core/Header Files";"../CandlelightEngine/Maths/Header Files";</AdditionalIncludeDirectories>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <Link>

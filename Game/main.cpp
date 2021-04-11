@@ -1,10 +1,9 @@
 #include <windows.h>
-#include "temp.h"
+#include "Maths.h"
+
+using namespace Candlelight::Maths;
 
 #pragma comment(lib, "CandlelightEngine.lib")
-
-using namespace Candlelight::TypeDefs;
-using namespace Candlelight::Dependencies;
 
 HINSTANCE hInst = nullptr;
 HWND hWnd = nullptr;
@@ -38,9 +37,19 @@ int WINAPI wWinMain(_In_ const HINSTANCE pHInstance, _In_opt_ const HINSTANCE pH
 		}
 		else
 		{
-			sPtr<Temp> sPtr = std::make_shared<Temp>();
-			uPtr<Temp> uPtr = std::make_unique<Temp>();
-			wPtr<Temp> wPtr = sPtr;
+			Vector3f v3{ 1, 4, 3 };
+			Vector3f v3b{ 2, 5, 4 };
+
+			v3 = Normalise(v3);
+			v3b = Normalise(v3b);
+
+			float dot = Dot(v3, v3b);
+			Vector3f cross = Cross(v3, v3b);
+
+			v3 += v3;
+			v3 *= 2;
+			v3 -= v3;
+			v3 /= 1;
 		}
 	}
 

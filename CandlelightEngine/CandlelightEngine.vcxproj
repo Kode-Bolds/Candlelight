@@ -19,15 +19,16 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Header Files\Dependencies\Dependencies.h" />
-    <ClInclude Include="Header Files\Dependencies\DependenciesContainer.h" />
-    <ClInclude Include="Header Files\Dependencies\IDependant.h" />
-    <ClInclude Include="Header Files\Dependencies\IDependency.h" />
-    <ClInclude Include="Header Files\temp.h" />
-    <ClInclude Include="Header Files\typedefs.h" />
+    <ClInclude Include="Dependencies\Header Files\Dependencies.h" />
+    <ClInclude Include="Dependencies\Header Files\DependenciesContainer.h" />
+    <ClInclude Include="Dependencies\Header Files\IDependant.h" />
+    <ClInclude Include="Dependencies\Header Files\IDependency.h" />
+    <ClInclude Include="Core\Header Files\typedefs.h" />
+    <ClInclude Include="Maths\Header Files\Maths.h" />
+    <ClInclude Include="Maths\Header Files\Vector3f.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Source Files\temp.cpp" />
+    <ClCompile Include="Maths\Source Files\Vector3f.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
@@ -105,7 +106,7 @@
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>../Header Files/pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>"Header Files";"Header Files\Dependencies";</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>"Header Files\Dependencies";"Core\Header Files";"Maths\Header Files";</AdditionalIncludeDirectories>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <Link>
@@ -124,7 +125,7 @@
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>../Header Files/pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>"Header Files";"Header Files\Dependencies";</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>"Header Files\Dependencies";"Core\Header Files";"Maths\Header Files";</AdditionalIncludeDirectories>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <Link>
@@ -143,7 +144,7 @@
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>../Header Files/pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>"Header Files";"Header Files\Dependencies";</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>"Header Files\Dependencies";"Core\Header Files";"Maths\Header Files";</AdditionalIncludeDirectories>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <Link>
@@ -162,7 +163,7 @@
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <PrecompiledHeaderFile>../Header Files/pch.h</PrecompiledHeaderFile>
-      <AdditionalIncludeDirectories>"Header Files";"Header Files\Dependencies";</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>"Header Files\Dependencies";"Core\Header Files";"Maths\Header Files";</AdditionalIncludeDirectories>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <Link>
